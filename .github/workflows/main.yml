@@ -26,5 +26,5 @@ jobs:
           push: true
           tags: |
             andrewkdsilva/rotten-potatoes:latest
-            andrewkdsilva/rotten-potatoes: ${{ github.run_number }}    
+            andrewkdsilva/rotten-potatoes:${{ github.run_number }}  
           
